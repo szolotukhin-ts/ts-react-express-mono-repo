@@ -28,8 +28,8 @@ This repository demonstrates how to build and manage a **React 19 frontend** and
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/probir-sarkar/react-express-monorepo
-cd react-express-monorepo
+git clone https://github.com/szolotukhin-ts/ts-react-express-mono-repo.git
+cd ts-react-express-mono-repo
 ```
 
 ### 2. Install dependencies using PNPM:

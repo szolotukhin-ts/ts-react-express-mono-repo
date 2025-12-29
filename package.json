@@ -1,0 +1,20 @@
+{
+  "name": "react-express",
+  "private": true,
+  "scripts": {
+    "build": "dotenvx run -- pnpm -r build",
+    "dev": "dotenvx run -- pnpm -r --parallel dev",
+    "dev:react": "dotenvx run -- pnpm --filter react dev",
+    "dev:express": "dotenvx run -- pnpm --filter express dev",
+    "start": "dotenvx run -- node apps/express/dist/index.js"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.51.4",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0"
+  },
+  "packageManager": "pnpm@10.26.2",
+  "engines": {
+    "node": ">=18"
+  }
+}

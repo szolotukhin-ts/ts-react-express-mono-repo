@@ -1,17 +1,39 @@
 import {Card} from "./components/Card/Card";
+import axios from "axios";
+import { useEffect, useState } from "react";
 import './App.css'
 
+type Card = {
+    id: number;
+    title: string;
+    paragraph: string;
+}
+
+async function getCards(): Promise<Card[]> {
+    // try {
+    const url = "http://localhost:5173/api/tasks";
+    const response = await axios.get<Card[]>(url);
+    return response.data;
+    // } catch (err) {
+    //   console.log(err);
+    //   return [];
+    // }
+}
+
 function App() {
-    const data = [
-        {id: 1, title: 'Apple', paragraph: 'This is an apple'},
-        {id: 2, title: 'Banana', paragraph: 'This is a banana'},
-        {id: 3, title: 'Cherry', paragraph: 'This is a cherry'}
-    ];
+    const [cards, setCards] = useState<[] | Card[]>([]);
+
+    useEffect(() => {
+        (async () => {
+            const songs = await getCards();
+            setCards(songs);
+        })();
+    }, []);
 
     return (
         <>
             <h1>React TypeScript</h1>
-            {data.map((item) => (
+            {cards.map((item) => (
                 <Card title={item.title} paragraph={item.paragraph}/>
             ))}
         </>

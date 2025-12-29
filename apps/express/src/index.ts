@@ -17,6 +17,8 @@ app.use(express.json());
 
 // Routes
 app.get("/api/tasks", (req, res) => {
+  cards = [];
+
   for (let i = 0; i < 10; i++) {
     const card: Card = {
       id: cards.length + 1,

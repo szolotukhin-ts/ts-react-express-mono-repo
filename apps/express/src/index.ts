@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-interface Card {
+type Card = {
   id: number;
   title: string;
   paragraph: string;
@@ -28,7 +28,7 @@ app.get("/api/tasks", (req, res) => {
     cards.push(card);
   }
 
-  res.status(201).json(cards);
+  res.status(200).json(cards);
 });
 
 // Start server

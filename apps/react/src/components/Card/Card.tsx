@@ -4,5 +4,5 @@ type CardProps = {
 }
 
 export const Card = ({ title, paragraph }: CardProps) => <aside>
-    <span>{ title }</span>-<span>{ paragraph }</span>
+    <span>{ title }</span> <span>{ paragraph }</span>
 </aside>

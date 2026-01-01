@@ -26,6 +26,12 @@ An Execution Context in JavaScript is the environment in which code is evaluated
 - Function Execution Context (FEC): A new execution context is created every time a function is invoked (called)
 - Eval Execution Context, is created when code is executed inside the eval() function
 
+??? 
+- Web Worker Execution Context (WEC): A new execution context is created for every Web Worker (worker thread)
+- Script Execution Context (SEC): A new execution context is created for every script (script tag)
+- Block Execution Context (BEC): A new execution context is created for every code block (curly braces)
+- Module Execution Context (MEC): A new execution context is created for every module (import/export)
+
 Phases of an Execution Context
 - Creation Phase (Memory Allocation Phase): The JavaScript engine scans the code and allocates memory for variables and functions.
 - Execution Phase (Code Execution Phase): The engine executes the code line by line
@@ -34,3 +40,10 @@ JavaScript Hoisting - Hoisting refers to the behavior
 where JavaScript moves the declarations of variables, functions, and classes to the top of their scope 
 during the compilation phase.
 https://www.geeksforgeeks.org/javascript/javascript-hoisting/
+
+## Questions
+* Closure
+* Scope
+* Lexical Environment
+* Call Stack
+* Protoype Chain

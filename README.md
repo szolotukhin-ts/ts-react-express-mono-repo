@@ -41,6 +41,19 @@ where JavaScript moves the declarations of variables, functions, and classes to 
 during the compilation phase.
 https://www.geeksforgeeks.org/javascript/javascript-hoisting/
 
+The lexical environment is a specific data structure within an execution context 
+that handles variable and function storage and scope.
+
+Scope is where a variable is available in your code 
+and whether it’s the same as another variable or a copy of one
+
+Scope:
+- Global Scope
+- Function Scope
+- Block Scope
+
+Scopes can also be nested within each other. This is called Scope Chaining
+
 ## Questions
 * Closure
 * Scope

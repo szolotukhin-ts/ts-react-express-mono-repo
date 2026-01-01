@@ -18,3 +18,19 @@ const { name, age } = user;
 const newUser[] = { ...user }
 
 - rest operator
+
+## JavaScript Under The Hood [2] - Execution Context
+
+An Execution Context in JavaScript is the environment in which code is evaluated and executed.
+- Global Execution Context (GEC): The default environment created when the JavaScript engine first loads a script file
+- Function Execution Context (FEC): A new execution context is created every time a function is invoked (called)
+- Eval Execution Context, is created when code is executed inside the eval() function
+
+Phases of an Execution Context
+- Creation Phase (Memory Allocation Phase): The JavaScript engine scans the code and allocates memory for variables and functions.
+- Execution Phase (Code Execution Phase): The engine executes the code line by line
+
+JavaScript Hoisting - Hoisting refers to the behavior 
+where JavaScript moves the declarations of variables, functions, and classes to the top of their scope 
+during the compilation phase.
+https://www.geeksforgeeks.org/javascript/javascript-hoisting/

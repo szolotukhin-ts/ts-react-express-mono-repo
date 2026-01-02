@@ -60,3 +60,7 @@ Scopes can also be nested within each other. This is called Scope Chaining
 * Lexical Environment
 * Call Stack
 * Protoype Chain
+
+## Advanced JavaScript Concepts 
+https://www.capicua.com/blog/12-advanced-javascript-concepts
+https://dev.to/noorulhassan/advanced-javascript-concepts-every-developer-should-know-jee

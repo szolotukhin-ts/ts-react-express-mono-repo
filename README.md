@@ -53,6 +53,18 @@ Scope:
 - Block Scope
 
 Scopes can also be nested within each other. This is called Scope Chaining
+Variables and functions have different levels of scope:
+
+Global Scope: Variables defined outside any function or block, accessible anywhere in the program.
+Local Scope: Variables defined inside a function or block, accessible only within that specific function or block.
+Nested Scope: Inner functions have access to variables in their parent functions.
+Block Scope: Variables defined with let and const are limited to the block they are declared in, like loops or conditionals.
+
+Lexical scope defines the accessibility of variables and functions depending on their location in the source code.
+https://www.geeksforgeeks.org/javascript/lexical-scope-in-javascript/
+
+A closure is a feature in JavaScript where an inner function has access to the scope (variables and parameters) of its outer functions, even after the outer function has returned.
+
 
 ## Questions
 * Closure

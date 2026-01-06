@@ -82,3 +82,4 @@ https://dev.to/noorulhassan/advanced-javascript-concepts-every-developer-should-
 
 ## Express Routes, Controllers, and Services
 https://dev.to/hakimmohamed/understanding-express-routes-controllers-and-services-a-beginners-guide-nodejs-tutorial-part-12-2cd4
+https://medium.com/@gabrielairiart.gi/express-essentials-service-classes-in-express-for-robust-applications-bad4becef945

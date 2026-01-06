@@ -79,3 +79,6 @@ of its outer functions, even after the outer function has returned.
 ## Advanced JavaScript Concepts 
 https://www.capicua.com/blog/12-advanced-javascript-concepts
 https://dev.to/noorulhassan/advanced-javascript-concepts-every-developer-should-know-jee
+
+## Express Routes, Controllers, and Services
+https://dev.to/hakimmohamed/understanding-express-routes-controllers-and-services-a-beginners-guide-nodejs-tutorial-part-12-2cd4

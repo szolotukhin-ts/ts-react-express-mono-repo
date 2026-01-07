@@ -86,3 +86,12 @@ https://medium.com/@gabrielairiart.gi/express-essentials-service-classes-in-expr
 
 ## Modern JavaScript Features: ES6 and Beyond
 https://www.suntecindia.com/blog/exciting-new-javascript-concepts-you-need-to-know/
+
+???
+https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-ii-arrow-functions-and-the-this-keyword-381ac7a32881/
+https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-iii-arrow-functions-and-the-this-keyword-381ac7a32881/
+https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-iv-arrow-functions-and-the-this-keyword-381ac7a32881/
+https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-v-arrow-functions-and-the-this-keyword-381ac7a32881/
+https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-vi-arrow-functions-and-the-this-keyword-381ac7a32881/
+https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-vii-arrow-functions-and-the-this-keyword-381ac7a32881/
+https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-v

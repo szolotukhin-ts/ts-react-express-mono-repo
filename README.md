@@ -98,3 +98,9 @@ https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-v
 
 ## Patching Node Modules
 https://medium.com/@rajrishij/how-to-patch-node-modules-2ba66c9a2e85
+- You can install a custom module into your local node_modules folder using 
+either the npm install command with a file path or by using npm link
+
+## How to test your new NPM module without publishing it
+https://medium.com/@oresoftware/node-js-how-to-test-your-new-npm-module-without-publishing-it-every-5-minutes-3b6f8e0491dd
+https://www.geeksforgeeks.org/node-js/how-to-install-a-local-module-using-npm/

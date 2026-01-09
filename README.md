@@ -95,3 +95,6 @@ https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-v-arrow-functions-
 https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-vi-arrow-functions-and-the-this-keyword-381ac7a32881/
 https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-vii-arrow-functions-and-the-this-keyword-381ac7a32881/
 https://www.freecodecamp.org/news/learn-es6-the-dope-way-part-v
+
+## Patching Node Modules
+https://medium.com/@rajrishij/how-to-patch-node-modules-2ba66c9a2e85
